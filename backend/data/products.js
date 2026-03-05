@@ -1,0 +1,148 @@
+const products = [
+  {
+    name: 'Bose QuietComfort Ultra Headphones',
+    image: '/images/headphones.jpg',
+    description:
+      'Condition: New | Noise Cancelling: Yes | Battery: Up to 24 hours | Spatial Audio support | Premium over-ear high-end headphones.',
+    brand: 'Bose',
+    category: 'Electronics',
+    price: 249.99,
+    countInStock: 6,
+    rating: 4.9,
+    numReviews: 12,
+  },
+  {
+    name: 'Nintendo Switch 2',
+    image: '/images/switch.jpg',
+    description:
+      'Condition: New | Storage: 256GB | Portable + Dock Mode | Supports 4K output | Latest generation Nintendo console.',
+    brand: 'Nintendo',
+    category: 'Gaming',
+    price: 399.99,
+    countInStock: 8,
+    rating: 4.4,
+    numReviews: 9,
+  },
+  {
+    name: 'Sony PlayStation 5',
+    image: '/images/ps5.jpg',
+    description:
+      'Condition: New | Storage: 1TB SSD | 4K Gaming | Ray Tracing | Ultra fast loading gaming console.',
+    brand: 'Sony',
+    category: 'Gaming',
+    price: 499.99,
+    countInStock: 5,
+    rating: 4.5,
+    numReviews: 15,
+  },
+  {
+    name: 'MacBook Pro M3',
+    image: '/images/macbook.jpg',
+    description:
+      'Condition: Refurbished | RAM: 16GB | Storage: 512GB SSD | Apple M3 Chip | Retina Display | High performance laptop.',
+    brand: 'Apple',
+    category: 'Computers',
+    price: 1499.99,
+    countInStock: 4,
+    rating: 4.6,
+    numReviews: 11,
+  },
+  {
+    name: 'iPhone 14 Pro Max',
+    image: '/images/iphone.jpg',
+    description:
+      'Condition: New | Storage: 256GB | OLED Display | Triple Camera | FaceID | Premium smartphone.',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 1199.99,
+    countInStock: 7,
+    rating: 5,
+    numReviews: 14,
+  },
+  {
+    name: 'Sony Alpha 7 III',
+    image: '/images/camera.jpg',
+    description:
+      'Condition: Used | Full Frame Sensor | 24MP | 4K Video | Professional mirrorless camera.',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 1499.99,
+    countInStock: 3,
+    rating: 4.6,
+    numReviews: 6,
+  },
+  {
+    name: 'Samsung Galaxy S24 Ultra',
+    image: '/images/galaxy.jpg',
+    description:
+      'Condition: New | Storage: 512GB | RAM: 12GB | AMOLED Display | High-end Android phone.',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 799.99,
+    countInStock: 6,
+    rating: 4.8,
+    numReviews: 10,
+  },
+  {
+    name: 'AirPods Pro 2nd Generation',
+    image: '/images/airpods.jpg',
+    description:
+      'Condition: New | Noise Cancelling | Wireless Charging | Spatial Audio | Apple earbuds.',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 199.99,
+    countInStock: 10,
+    rating: 4.7,
+    numReviews: 8,
+  },
+  {
+    name: 'Amazon Echo Show 8',
+    image: '/images/echo.jpg',
+    description:
+      'Condition: New | Smart Display | Alexa Voice Assistant | Video Calling | Smart home control.',
+    brand: 'Amazon',
+    category: 'Electronics',
+    price: 149.99,
+    countInStock: 9,
+    rating: 4.3,
+    numReviews: 7,
+  },
+  {
+    name: 'Ultimea 5.1.2 Soundbar Dolby Atmos',
+    image: '/images/soundbar.jpg',
+    description:
+      'Condition: New | Dolby Atmos | 5.1.2 Channel | Wireless Subwoofer | Home theatre sound system.',
+    brand: 'Ultimea',
+    category: 'Electronics',
+    price: 229.99,
+    countInStock: 5,
+    rating: 4.9,
+    numReviews: 5,
+  },
+  {
+    name: 'Samsung 43" LED TV GU43U7099FU',
+    image: '/images/tv.jpg',
+    description:
+      'Condition: New | 43 Inch | 4K UHD | Smart TV | HDR support | LED display.',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 249.99,
+    countInStock: 6,
+    rating: 4.6,
+    numReviews: 4,
+  },
+  {
+    name: 'Gaming PC CSL Sprint 5701',
+    image: '/images/pc.jpg',
+    description:
+      'Condition: New | Ryzen 7 5700X | RAM 32GB | SSD 1TB | RTX Graphics | High-end gaming PC.',
+    brand: 'CSL',
+    category: 'Computers',
+    price: 1299.99,
+    countInStock: 3,
+    rating: 4.5,
+    numReviews: 6,
+  },
+]
+
+export default products// product update

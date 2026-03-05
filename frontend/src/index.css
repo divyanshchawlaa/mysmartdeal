@@ -1,0 +1,151 @@
+main {
+  min-height: 80vh;
+  margin-top: 20px;
+}
+body {
+  padding-top: 70px;
+}
+/* ---------- Typography ---------- */
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+
+/* ---------- Page background ---------- */
+
+body {
+  background-color: #eef1f5;
+}
+
+
+/* ---------- Modern card style ---------- */
+
+.card {
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: all 0.25s ease;
+  overflow: hidden;
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+
+/* image spacing */
+
+.card img {
+  padding: 12px;
+  object-fit: contain;
+}
+
+
+/* card body spacing */
+
+.card-body {
+  padding: 10px 15px;
+}
+
+
+/* price text */
+
+.card-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+
+/* center grid */
+
+.row {
+  justify-content: center;
+}
+
+
+/* spacing */
+
+.col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 300px;
+  margin: 15px;
+}
+
+
+/* container width */
+
+.container {
+  max-width: 1100px;
+}
+
+/* ---------- Buttons (NEW) ---------- */
+
+.btn-primary {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.btn-primary:hover {
+  background-color: #1a252f;
+}
+
+
+/* ---------- Carousel (keep original but safe) ---------- */
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}/* css */
