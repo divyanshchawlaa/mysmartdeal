@@ -30,3 +30,4 @@ EXPOSE 5001
 
 # Start server
 CMD ["npm", "run", "server"]# docker
+# docker
